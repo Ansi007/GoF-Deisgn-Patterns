@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CommandWinForms
 {
-    public partial class Form1 : Form
+    public partial class CommandGame : Form
     {
-        public Form1()
+        public CommandGame()
         {
             InitializeComponent();
         }

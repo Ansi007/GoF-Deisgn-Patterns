@@ -1,6 +1,6 @@
 ﻿namespace CommandWinForms
 {
-    partial class Form1
+    partial class CommandGame
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.dotLabel = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // dotLabel
+            // 
+            this.dotLabel.AutoSize = true;
+            this.dotLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dotLabel.Location = new System.Drawing.Point(0, 0);
+            this.dotLabel.Name = "dotLabel";
+            this.dotLabel.Size = new System.Drawing.Size(52, 76);
+            this.dotLabel.TabIndex = 0;
+            this.dotLabel.Text = ".";
+            // 
+            // CommandGame
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.dotLabel);
+            this.Name = "CommandGame";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "CommandGame";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label dotLabel;
     }
 }
 
