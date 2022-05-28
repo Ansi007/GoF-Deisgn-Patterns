@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,9 +10,11 @@ namespace CommandWinForms
 {
     public class Player
     {
+        Label dotLabel;
         public int posX, posY;
         public Player(Label dotLabel)
         {
+            this.dotLabel = dotLabel;
             posX = dotLabel.Location.X;
             posY = dotLabel.Location.Y;
         }
@@ -19,6 +22,10 @@ namespace CommandWinForms
         {
             this.posX = posX;
             this.posY = posY;
+        }
+        public void UpdatePosition()
+        {
+            dotLabel.Location = new Point(posX, posY);
         }
     }
     public interface Command

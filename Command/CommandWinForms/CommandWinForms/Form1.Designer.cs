@@ -51,6 +51,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CommandGame";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.CommandGame_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CommandGame_KeyPress);
             this.ResumeLayout(false);
             this.PerformLayout();
 
