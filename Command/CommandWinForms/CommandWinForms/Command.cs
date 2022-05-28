@@ -26,4 +26,86 @@ namespace CommandWinForms
         void execute();
         void undo();
     }
+    public class MoveLeftCommand : Command
+    {
+        Player player;
+        int beforeX, beforeY;
+        public MoveLeftCommand(Player player)
+        {
+            this.player = player;
+        }
+        public void execute()
+        {
+            beforeX = player.posX;
+            beforeY = player.posY;
+            player.Move(beforeX - 1, beforeY);
+        }
+
+        public void undo()
+        {
+            player.Move(beforeX, beforeY);
+        }
+    }
+    public class MoveRightCommand : Command
+    {
+        Player player;
+        int beforeX, beforeY;
+        public MoveRightCommand(Player player)
+        {
+            this.player = player;
+        }
+        public void execute()
+        {
+            beforeX = player.posX;
+            beforeY = player.posY;
+            player.Move(beforeX + 1, beforeY);
+        }
+
+        public void undo()
+        {
+            player.Move(beforeX, beforeY);
+        }
+    }
+    public class MoveUpCommand : Command
+    {
+        Player player;
+        int beforeX, beforeY;
+
+        public MoveUpCommand(Player player)
+        {
+            this.player = player;
+        }
+        public void execute()
+        {
+            beforeX = player.posX;
+            beforeY = player.posY;
+            player.Move(beforeX, beforeY - 1);
+        }
+
+        public void undo()
+        {
+            player.Move(beforeX, beforeY);
+        }
+    }
+    public class MoveDownCommand : Command
+    {
+        Player player;
+        int beforeX, beforeY;
+
+        public MoveDownCommand(Player player)
+        {
+            this.player = player;
+        }
+        public void execute()
+        {
+            beforeX = player.posX;
+            beforeY = player.posY;
+            player.Move(beforeX, beforeY + 1);
+        }
+
+        public void undo()
+        {
+            player.Move(beforeX, beforeY);
+        }
+    }
 }
