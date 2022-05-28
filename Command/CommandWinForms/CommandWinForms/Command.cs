@@ -10,6 +10,7 @@ namespace CommandWinForms
 {
     public class Player
     {
+        public static int power = 3;
         Label dotLabel;
         public int posX, posY;
         public Player(Label dotLabel)
@@ -45,7 +46,7 @@ namespace CommandWinForms
         {
             beforeX = player.posX;
             beforeY = player.posY;
-            player.Move(beforeX - 1, beforeY);
+            player.Move(beforeX - Player.power, beforeY);
         }
 
         public void undo()
@@ -65,7 +66,7 @@ namespace CommandWinForms
         {
             beforeX = player.posX;
             beforeY = player.posY;
-            player.Move(beforeX + 1, beforeY);
+            player.Move(beforeX + Player.power, beforeY);
         }
 
         public void undo()
@@ -86,7 +87,7 @@ namespace CommandWinForms
         {
             beforeX = player.posX;
             beforeY = player.posY;
-            player.Move(beforeX, beforeY - 1);
+            player.Move(beforeX, beforeY - Player.power);
         }
 
         public void undo()
@@ -107,7 +108,7 @@ namespace CommandWinForms
         {
             beforeX = player.posX;
             beforeY = player.posY;
-            player.Move(beforeX, beforeY + 1);
+            player.Move(beforeX, beforeY + Player.power);
         }
 
         public void undo()
