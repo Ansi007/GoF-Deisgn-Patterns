@@ -66,6 +66,11 @@ namespace CommandWinForms
                 case 'r':
                     while (cmds.Count > 0)
                     {
+                        var thread = new System.Threading.Thread(p =>
+                        {
+                            System.Threading.Thread.Sleep(5000);
+                        });
+                        thread.Start();
                         Command c = cmds.Pop();
                         c.undo();
                         player.UpdatePosition();
