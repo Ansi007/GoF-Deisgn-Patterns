@@ -1,0 +1,17 @@
+Q: Why games need Deisgn Patterns?
+- Time and Sequencing (Things must happen in Right Order and at the Right Time)
+- Performance
+
+Q: What is a good Software Architecture?
+- Changes occurs without disturbing rest of the code. Change is anticipated
+- Decoupled.
+- Performance and Speed (Interfaces, Observers).
+
+Q: Command?
+
+In object-oriented programming, the command pattern is a behavioral design pattern in which an object is used to encapsulate all information needed to perform
+an action or trigger an event at a later time. This information includes the method name, the object that owns the method and values for the method parameters.  
+
+The command pattern should be used when: You need a command to have a life span independent of the original request, or if you want to queue, specify and execute
+requests at different times. You need undo/redo operations. The command's execution can be stored for reversing its effects.
+

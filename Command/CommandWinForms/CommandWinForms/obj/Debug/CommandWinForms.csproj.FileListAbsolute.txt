@@ -1,0 +1,11 @@
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\bin\Debug\CommandWinForms.exe.config
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\bin\Debug\CommandWinForms.exe
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\bin\Debug\CommandWinForms.pdb
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\obj\Debug\CommandWinForms.csproj.AssemblyReference.cache
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\obj\Debug\CommandWinForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\obj\Debug\CommandWinForms.CommandGame.resources
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\obj\Debug\CommandWinForms.Properties.Resources.resources
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\obj\Debug\CommandWinForms.csproj.GenerateResource.cache
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\obj\Debug\CommandWinForms.csproj.CoreCompileInputs.cache
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\obj\Debug\CommandWinForms.exe
+C:\Users\Anns\Desktop\GoF-Deisgn-Patterns\Command\CommandWinForms\CommandWinForms\obj\Debug\CommandWinForms.pdb
