@@ -31,6 +31,20 @@ in reverse order as a replay.
 ### Sample Run
 ![Command Game GIF](https://raw.githubusercontent.com/Ansi007/GoF-Deisgn-Patterns/main/Command/CommandGame.gif)
 ## Flyweight Pattren
+### Introduction
+* **Flyweight** is a **Structural** design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple instances.
+* **Structural** design patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
+* The shared/common part of object is called **Intrinsic State**
+* The different/uncommon part of object is called **Extrnisic State**
+* The **Flyweight Pattern** should be used when:
+  - You need to create a large number of similar objects (say 10^5)
+### Implementation Problem
+We have a forest with hundred thousands or million trees, trees are distinguished on the basis of their type, Autmun OAK, Summer OAK etc.
+There are specific types of trees. We know the number before hand.
+Here the intrinsic state is **TreeTypes** and extrinsic state is **Tree's Location**
+**TreeTypes** are stored seperately and shared among all trees
+### Sample Run
+![Command Game GIF](https://raw.githubusercontent.com/Ansi007/GoF-Deisgn-Patterns/main/Command/CommandGame.gif)
 ## Prototype Pattren
 ### Introduction
 * The **Prototype interface** declares the cloning methods. In most cases, it’s a single clone method.
