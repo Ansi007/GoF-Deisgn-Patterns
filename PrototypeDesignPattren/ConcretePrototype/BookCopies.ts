@@ -4,7 +4,7 @@ This is Concrete Prototype that implements the cloning method.
 import {Prototype} from "../ProrotyeInterface"
 import { CircularReference } from "../CircularRefrence"
 
-class Book implements Prototype
+export class Book implements Prototype
 {
 
    public name : string;
