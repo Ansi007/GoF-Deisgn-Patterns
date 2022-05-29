@@ -81,6 +81,5 @@ namespace CommandWinForms
             }
             player.UpdatePosition();
         }
-
     }
 }
