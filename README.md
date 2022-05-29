@@ -58,5 +58,5 @@ John succeed as assembler and now he is running a book publising center of his o
 - Regisrtry For Clone<br/>
  ![Inkeddirectory_LI](https://user-images.githubusercontent.com/71145709/170858948-c893b2a2-04c6-4533-b03a-49bd446ab15d.jpg)
 - Cloning Without Regisrtry<br/>
-![Inkedwithoutdirectory_LI](https://user-images.githubusercontent.com/71145709/170858945-4918550f-9a80-41a9-bdb6-85653aa62e83.jpg)
+![without registry](https://user-images.githubusercontent.com/71145709/170873048-af512850-1716-4d73-b1a1-fd8d445cc61e.png)
 
