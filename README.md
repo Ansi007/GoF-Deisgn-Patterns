@@ -10,7 +10,7 @@
 ### Implementation
 John is a assistant at a book publising shop. He has to assemble books for publishing. Book assembling is a complex task for him as it consists of a lot of sub-steps like adding preface, contentList, cover, preface and a lot of other scetions. He has to create diffrent types of books like educational books, novels , dewaan and afsanas etc. He can't remember where to include which section. so he wants to design a **Book Builder** for himself. Where he can easily extend the classes of books ( e.g. he might want to add biblographies in future etc.) and add different variations of each class according to his evolving needs. *Let's help John!*
 ### Sample Run
-
+![builder](https://user-images.githubusercontent.com/71145709/170857222-5dad503e-7d87-46da-947d-1107c9cdcb8a.png)
 ## Command Pattren
 ## Flyweight Pattren
 ## Prototype Pattren
