@@ -44,9 +44,8 @@ export class Manual implements Prototype
    public clone():this
    {
       const newCopy = Object.create(this);
-      newCopy.versionDetails = Object.create(this.versionDetails);
+      newCopy.versionDetails = this.versionDetails;
       newCopy.copies = {
-         ...this.copies,
          Copy : {...this},
       };
       return newCopy;

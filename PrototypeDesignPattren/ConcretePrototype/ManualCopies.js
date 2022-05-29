@@ -35,8 +35,10 @@ var Manual = /** @class */ (function () {
     };
     Manual.prototype.clone = function () {
         var newCopy = Object.create(this);
-        newCopy.versionDetails = Object.create(this.versionDetails);
-        newCopy.copies = __assign(__assign({}, this.copies), { Copy: __assign({}, this) });
+        newCopy.versionDetails = this.versionDetails;
+        newCopy.copies = {
+            Copy: __assign({}, this)
+        };
         return newCopy;
     };
     return Manual;

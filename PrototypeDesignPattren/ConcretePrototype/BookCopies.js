@@ -35,8 +35,10 @@ var Book = /** @class */ (function () {
     };
     Book.prototype.clone = function () {
         var newCopy = Object.create(this);
-        newCopy.publishDetails = Object.create(this.publishDetails);
-        newCopy.copies = __assign(__assign({}, this.copies), { Copy: __assign({}, this) });
+        newCopy.publishDetails = this.publishDetails;
+        newCopy.copies = {
+            Copy: __assign({}, this)
+        };
         return newCopy;
     };
     return Book;

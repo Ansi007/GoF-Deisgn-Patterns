@@ -11,7 +11,7 @@ import { Prototype } from "./ProrotyeInterface";
  {
    const registry : PrototypeRegistry = new PrototypeRegistry();
    const clones : Prototype [] = registry.getClones();
-   console.log("clones");
+   console.log("Ready To Use clones in Registry!");
    console.log(clones);
  }
 

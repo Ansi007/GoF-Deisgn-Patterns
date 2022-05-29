@@ -13,7 +13,11 @@ book.setPublishDetails(
    }
 );
 book.setCopies(new CircularReference(book));
-
+console.log("**********Object To Be Cloned!**********")
+console.log(book.getName());
+console.log(book.getCopies());
+console.log(book.getPublishDetails());
+console.log("*********Cloning************");
 const cloned = book.clone();
 if(book.name === cloned.name)
    console.log("Name cloned!");
@@ -29,3 +33,7 @@ if(book.copies !== cloned.copies)
    console.log("Copies cloned!");
 else
    console.log("Failed to clone copies");
+console.log("***********Cloned Object!***************")
+console.log(cloned.getName());
+console.log(cloned.getCopies());
+console.log(cloned.getPublishDetails());
