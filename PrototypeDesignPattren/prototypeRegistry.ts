@@ -44,5 +44,7 @@ export class PrototypeRegistry
          }
       );
       manualClone.setCopies(manualRef);
+      this.collection.push(bookClone);
+      this.collection.push(manualClone);
    }
 }
