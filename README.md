@@ -29,7 +29,7 @@ We have a player, represented with a dot, that can move left, right, up and down
 We also want to provide the facility to revert player's move, in case he takes the wrong turn and at the end of the play we want to show what moves he took
 in reverse order as a replay.
 ### Sample Run
-
+![Command Game GIF](https://raw.githubusercontent.com/Ansi007/GoF-Deisgn-Patterns/main/Command/CommandGame.gif)
 ## Flyweight Pattren
 ## Prototype Pattren
 ### Introduction
