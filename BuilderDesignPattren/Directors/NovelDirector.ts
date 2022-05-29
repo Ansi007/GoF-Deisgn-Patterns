@@ -8,8 +8,8 @@ export class NovelDirector{
 
    private builder : Builder;
 
-   public setBuilder(builder: Builder): void{
-      this.builder = builder;
+   public setBuilder(_builder: Builder): void{
+      this.builder = _builder;
    }
 
    /*

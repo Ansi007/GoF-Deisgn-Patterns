@@ -9,7 +9,7 @@ export class Novel{
 
    public DisplayNovel():void
    {
-      console.log(`Novel Contains following\n ${this.novel.join('\n')}\n`);
+      console.log(`${this.novel.join('\n')}\n`);
    }
 }
 
