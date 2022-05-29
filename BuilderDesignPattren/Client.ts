@@ -13,6 +13,7 @@ function BuildNovels(novelDirector:NovelDirector)
 {
    const Builder = new NovelBuilder();
    console.log("Building a traditional Novel Booklet!\n");
+   novelDirector.setBuilder(Builder);
    novelDirector.TraditionalNovelBooklet();
    Builder.getNovel().DisplayNovel();
    console.log("\t\t****************");
@@ -24,6 +25,7 @@ function BuildNovels(novelDirector:NovelDirector)
 function BuildDewaan(dewaanDirector:DewaanDirector)
 {
    const Builder = new DewaanBuilder();
+   dewaanDirector.setBuilder(Builder);
    console.log("Building a traditional Dewaan Booklet!\n");
    dewaanDirector.TraditionalDewaanBooklet();
    Builder.getDewaan().DisplayDewaan();

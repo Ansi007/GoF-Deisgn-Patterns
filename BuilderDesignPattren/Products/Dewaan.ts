@@ -9,6 +9,6 @@ export class Dewaan{
 
    public DisplayDewaan():void
    {
-      console.log(`Dewaan Contains following\n ${this.dewaan.join('\n')}\n`);
+      console.log(`${this.dewaan.join('\n')}\n`);
    }
 }
