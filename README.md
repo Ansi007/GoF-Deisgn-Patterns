@@ -23,7 +23,7 @@ John is an assistant at a book publising shop. He has to assemble books for publ
 ### Implementation Problem
 John succeed as assembler and now he is running a book publising center of his own. He has a lot of orders and for each order he has to publish a bunch of books of similar type. It takes a lot of time to create every book object from scratch. He want to develope a bluprint object that he can clone to get started and avoid the hassle of reaching out database and creating object from sacratch. alse he wants to have a directory where he can store commonly used clones as a ready made collection to be used. *Let's help him once again.*
 ### Sample Run
-- Directory For Clone
+- Directory For Clone<br/>
 ![directory](https://user-images.githubusercontent.com/71145709/170858568-1fd9b355-3c91-43f0-beb0-77869f21c25a.PNG)
-- Cloning Without Directory
+- Cloning Without Directory<br/>
 ![withoutdirectory](https://user-images.githubusercontent.com/71145709/170858575-eb418aab-7914-42f0-bfd9-e811d0544582.PNG)
