@@ -24,6 +24,7 @@ John is an assistant at a book publising shop. He has to assemble books for publ
 John succeed as assembler and now he is running a book publising center of his own. He has a lot of orders and for each order he has to publish a bunch of books of similar type. It takes a lot of time to create every book object from scratch. He want to develope a bluprint object that he can clone to get started and avoid the hassle of reaching out database and creating object from sacratch. alse he wants to have a directory where he can store commonly used clones as a ready made collection to be used. *Let's help him once again.*
 ### Sample Run
 - Regisrtry For Clone<br/>
- ![directory](https://user-images.githubusercontent.com/71145709/170858901-3aa54b46-2d82-4399-9f73-5da29b7b4c86.PNG)
+ ![Inkeddirectory_LI](https://user-images.githubusercontent.com/71145709/170858948-c893b2a2-04c6-4533-b03a-49bd446ab15d.jpg)
 - Cloning Without Regisrtry<br/>
-![withoutdirectory](https://user-images.githubusercontent.com/71145709/170858897-c228916a-4e27-4ea6-8e76-5a578a8ee2a7.PNG)
+![Inkedwithoutdirectory_LI](https://user-images.githubusercontent.com/71145709/170858945-4918550f-9a80-41a9-bdb6-85653aa62e83.jpg)
+
