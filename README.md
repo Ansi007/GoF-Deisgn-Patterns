@@ -12,6 +12,24 @@ John is an assistant at a book publising shop. He has to assemble books for publ
 ### Sample Run
 ![builder](https://user-images.githubusercontent.com/71145709/170857222-5dad503e-7d87-46da-947d-1107c9cdcb8a.png)
 ## Command Pattren
+### Games Design Patterns?
+* Before we move to **Command** or **Flyweight** Pattern, We need to know Why **Games** need Design Patterns?
+  - Time and Sequencing (Things must happen in right order and at right time)
+  - Performance and Speed (CPU,RAM utiliziation)
+### Introduction
+* In OOP, the **Command** pattern is a **Behavioral** design pattern in which an object is used to encapsulate all information needed to perform
+an action or trigger an event at a later time. This information includes the method name, the object that owns the method and values for the method parameters.
+* The **Command interface** has one execute method that refers/points to the event that is needed to be perform at a later time, and it may have undo and redo methods.
+* The **Command Pattern** should be used when:
+  - You need a command to have a life span independent of the original request.
+  - You want to queue, specify and execute requests at different times.
+  - You need undo/redo operations
+### Implementation Problem
+We have a player, represented with a dot, that can move left, right, up and down in an area. These are the only four actions that could be triggered.
+We also want to provide the facility to revert player's move, in case he takes the wrong turn and at the end of the play we want to show what moves he took
+in reverse order as a replay.
+### Sample Run
+
 ## Flyweight Pattren
 ## Prototype Pattren
 ### Introduction
