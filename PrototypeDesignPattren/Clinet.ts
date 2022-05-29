@@ -1,6 +1,9 @@
 /*
 The Client can produce a copy of any object that follows the prototype interface.
 */
+/*
+The Client can produce a copy of any object that follows the prototype interface.
+*/
 import { PrototypeRegistry }  from "./prototypeRegistry"
 import { Prototype } from "./ProrotyeInterface";
 
