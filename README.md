@@ -44,7 +44,7 @@ There are specific types of trees. We know the number before hand.
 Here the intrinsic state is **TreeTypes** and extrinsic state is **Tree's Location**
 **TreeTypes** are stored seperately and shared among all trees
 ### Sample Run
-![Command Game GIF](https://raw.githubusercontent.com/Ansi007/GoF-Deisgn-Patterns/main/Command/CommandGame.gif)
+![Flyweight Forest GIF](https://raw.githubusercontent.com/Ansi007/GoF-Deisgn-Patterns/main/FlyWeight/Flyweight.gif)
 ## Prototype Pattren
 ### Introduction
 * The **Prototype interface** declares the cloning methods. In most cases, it’s a single clone method.
