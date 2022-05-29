@@ -30,7 +30,9 @@ public class Demo {
             forest.plantTree(random(0, CANVAS_SIZE), random(0, CANVAS_SIZE),"BROWN_ Oak", Color.PINK, "PINK Oak texture stub");
             //Add trees of different types in forest
         }
+        
         forest.setSize(CANVAS_SIZE, CANVAS_SIZE);   //Set Frame Size
+        forest.setLocationRelativeTo(null);
         forest.setVisible(true);    //Make Frame Visisble, paint it
         Instant end = Instant.now();    //End Time
         Duration timeElapsed = Duration.between(start, end);    //Total Time Taken

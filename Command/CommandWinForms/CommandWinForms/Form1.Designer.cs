@@ -34,10 +34,10 @@
             // dotLabel
             // 
             this.dotLabel.AutoSize = true;
-            this.dotLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dotLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 100F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dotLabel.Location = new System.Drawing.Point(0, 0);
             this.dotLabel.Name = "dotLabel";
-            this.dotLabel.Size = new System.Drawing.Size(52, 76);
+            this.dotLabel.Size = new System.Drawing.Size(103, 153);
             this.dotLabel.TabIndex = 0;
             this.dotLabel.Text = ".";
             // 
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(977, 619);
             this.Controls.Add(this.dotLabel);
             this.Name = "CommandGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
