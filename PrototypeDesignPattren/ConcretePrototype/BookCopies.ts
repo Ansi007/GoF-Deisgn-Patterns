@@ -44,7 +44,7 @@ export class Book implements Prototype
    public clone():this
    {
       const newCopy = Object.create(this);
-      newCopy.publishDetails = this.publishDetails;
+      newCopy.publishDetails = {...this.publishDetails};
       newCopy.copies = {
          Copy : {...this},
       };
