@@ -15,7 +15,7 @@ import java.time.Instant;
 
 public class Demo {
     static int CANVAS_SIZE = 500;  //Frame Size, Height and Width
-    static int TREES_TO_DRAW = 1000000; //Number of trees in the forest
+    static int TREES_TO_DRAW = 10000000; //Number of trees in the forest
     static int TREE_TYPES = 5;  //Number of Types of trees (Intrinsic state)
     //Position is extrinsic
     

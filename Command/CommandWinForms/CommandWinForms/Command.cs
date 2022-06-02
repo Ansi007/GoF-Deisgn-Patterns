@@ -10,7 +10,7 @@ namespace CommandWinForms
 {
     public class Player
     {
-        public static int power = 3;
+        public static int power = 5;
         Label dotLabel;
         public int posX, posY;
         public Player(Label dotLabel)

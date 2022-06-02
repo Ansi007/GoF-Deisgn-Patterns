@@ -28,7 +28,6 @@ namespace Proxy
 
     class RealInternet : Internet
     {
-        
         void Internet.VisitWebsite(string websiteName, User user)  //overrided method
         {
             Console.WriteLine("You are visiting the website named "+ websiteName+ " on the internet");
