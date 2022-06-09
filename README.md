@@ -68,4 +68,16 @@ John succeed as assembler and now he is running a book publising center of his o
  ![Inkeddirectory_LI](https://user-images.githubusercontent.com/71145709/170858948-c893b2a2-04c6-4533-b03a-49bd446ab15d.jpg)
 - Cloning Without Regisrtry<br/>
 ![without registry](https://user-images.githubusercontent.com/71145709/170873048-af512850-1716-4d73-b1a1-fd8d445cc61e.png)
-
+### How To Run
+#### Pre-Requisit
+- You must have Node installed. Refer to [Node Installation Guide](https://www.pluralsight.com/guides/getting-started-with-nodejs).
+- You must have TypeScript installed. Refer to [TypeScript Installation Guide](https://www.javatpoint.com/typescript-installation).
+#### Follow To Execute
+- Clone the Repositry by running `git clone https://github.com/Ansi007/GoF-Deisgn-Patterns`
+- Change directory to Builder by running `cd ./GoF-Deisgn-Patterns/Prototype`
+- **Demo With Registory**
+- Compile the typeScript files to generate javasript runnable files. Run `tsc Clinet.ts`
+- To execute the js files run `node Clinet.js`
+- **Demo WithOut Registory**
+- Compile the typeScript files to generate javasript runnable files. Run `tsc ClientWithoutRegisrty.ts`
+- To execute the js files run `node ClientWithoutRegisrty.js`
