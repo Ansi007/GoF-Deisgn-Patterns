@@ -74,10 +74,10 @@ John succeed as assembler and now he is running a book publising center of his o
 - You must have TypeScript installed. Refer to [TypeScript Installation Guide](https://www.javatpoint.com/typescript-installation).
 #### Follow To Execute
 - Clone the Repositry by running `git clone https://github.com/Ansi007/GoF-Deisgn-Patterns`
-- Change directory to Builder by running `cd ./GoF-Deisgn-Patterns/Prototype`
-- **Demo With Registory**
+- Change directory to Builder by running `cd ./GoF-Deisgn-Patterns/Prototype`<br />
+**Demo With Registory**
 - Compile the typeScript files to generate javasript runnable files. Run `tsc Clinet.ts`
-- To execute the js files run `node Clinet.js`
-- **Demo WithOut Registory**
+- To execute the js files run `node Clinet.js`<br />
+**Demo WithOut Registory**
 - Compile the typeScript files to generate javasript runnable files. Run `tsc ClientWithoutRegisrty.ts`
 - To execute the js files run `node ClientWithoutRegisrty.js`
