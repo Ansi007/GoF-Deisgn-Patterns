@@ -14,7 +14,7 @@ John is an assistant at a book publising shop. He has to assemble books for publ
 ### How To Run
 #### Pre-Requisit
 - You must have Node installed. Refer to [Node Installation Guide](https://www.pluralsight.com/guides/getting-started-with-nodejs).
-- You must have TypeScipt installed. Refer to [TyeScript Installation Guide]((https://www.javatpoint.com/typescript-installation)).
+- You must have TypeScript installed. Refer to [TypeScript Installation Guide](https://www.javatpoint.com/typescript-installation).
 #### Follow To Execute
 - Clone the Repositry by running `git clone https://github.com/Ansi007/GoF-Deisgn-Patterns`
 - Change directory to Builder by running `cd ./GoF-Deisgn-Patterns/Builder`
